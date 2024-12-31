@@ -1,110 +1,86 @@
-##Tamil - Spell and Grammar Correction System
+# Tamil - Spell and Grammar Correction System
 
-Project Overview
+## Project Overview
 
 This project focuses on the development of an advanced Tamil language processing tool that addresses spelling and grammatical inaccuracies in Tamil text. By integrating traditional linguistic techniques with modern computational approaches, the system ensures efficient and accurate error detection and correction.
 
-#System Components
+## System Components
 
-Spell Correction Module
+### Spell Correction Module
 
-Detects and corrects spelling mistakes using sophisticated algorithms.
+- Detects and corrects spelling mistakes using sophisticated algorithms.
+- Suggests appropriate alternatives based on predefined rules and metrics.
 
-Suggests appropriate alternatives based on predefined rules and metrics.
+### Grammar Correction Module
 
-Grammar Correction Module
+- Identifies grammatical inconsistencies in Tamil sentences.
+- Offers corrections for common errors, including tense usage and structural alignment.
 
-Identifies grammatical inconsistencies in Tamil sentences.
+## Key Features
 
-Offers corrections for common errors, including tense usage and structural alignment.
+### Spell Correction
 
-#Key Features
+- **Pattern-Based Suggestions**: Generates word suggestions by analyzing prefixes and suffixes.
+- **Edit Distance Algorithm**: Utilizes dynamic programming to calculate the minimal changes needed for correction.
+- **Extensive Dictionary Support**: Incorporates a comprehensive list of Tamil words for reference.
 
-Spell Correction
+### Grammar Correction
 
-Pattern-Based Suggestions: Generates word suggestions by analyzing prefixes and suffixes.
+- **Tense Consistency Validation**: Ensures verbs align with the required tense.
+- **Structural Checks**: Analyzes subject-verb relationships for accuracy.
 
-Edit Distance Algorithm: Utilizes dynamic programming to calculate the minimal changes needed for correction.
+### Multi-Approach Methodology:
 
-Extensive Dictionary Support: Incorporates a comprehensive list of Tamil words for reference.
+- Rule-based grammar validation.
+- Machine learning for context-sensitive grammar rules.
+- Neural networks for deep grammar analysis.
 
-Grammar Correction
+## Methodology and Workflow
 
-Tense Consistency Validation: Ensures verbs align with the required tense.
+### Spell Correction Workflow
 
-Structural Checks: Analyzes subject-verb relationships for accuracy.
+1. **Data Preparation**:
+   - Extracts and normalizes Tamil text from large datasets.
+   - Filters unique words for building the reference dictionary.
 
-Multi-Approach Methodology:
+2. **Word Matching**:
+   - Suggests potential corrections using prefix/suffix matching.
+   - Employs an edit distance algorithm to refine suggestions.
 
-Rule-based grammar validation.
+3. **Selection Process**:
+   - Prioritizes suggestions with the highest similarity scores.
 
-Machine learning for context-sensitive grammar rules.
+### Grammar Correction Workflow
 
-Neural networks for deep grammar analysis.
+1. **Rule-Based Approach**:
+   - Applies predefined Tamil grammar rules to detect errors.
 
-Methodology and Workflow
+2. **Statistical Models**:
+   - Uses machine learning classifiers to analyze sentence structures and detect anomalies.
 
-Spell Correction Workflow
+3. **Contextual Correction**:
+   - Implements deep learning models for nuanced grammar improvements.
 
-Data Preparation
-
-Extracts and normalizes Tamil text from large datasets.
-
-Filters unique words for building the reference dictionary.
-
-Word Matching
-
-Suggests potential corrections using prefix/suffix matching.
-
-Employs an edit distance algorithm to refine suggestions.
-
-Selection Process
-
-Prioritizes suggestions with the highest similarity scores.
-
-Grammar Correction Workflow
-
-Rule-Based Approach
-
-Applies predefined Tamil grammar rules to detect errors.
-
-Statistical Models
-
-Uses machine learning classifiers to analyze sentence structures and detect anomalies.
-
-Contextual Correction
-
-Implements deep learning models for nuanced grammar improvements.
-
-Evaluation and Metrics
+## Evaluation and Metrics
 
 The performance of both modules is assessed through:
 
-Accuracy: Measures the overall correctness of the system.
+- **Accuracy**: Measures the overall correctness of the system.
+- **Precision**: Evaluates the proportion of relevant corrections.
+- **Recall**: Assesses the system’s ability to identify all errors.
+- **F1 Score**: Balances precision and recall for a comprehensive performance metric.
 
-Precision: Evaluates the proportion of relevant corrections.
+### Testing Metrics
 
-Recall: Assesses the system’s ability to identify all errors.
+- **True Positives (TP)**: Errors correctly identified and corrected.
+- **False Positives (FP)**: Unnecessary corrections.
+- **False Negatives (FN)**: Missed errors.
+- **True Negatives (TN)**: Correctly untouched parts of the text.
 
-F1 Score: Balances precision and recall for a comprehensive performance metric.
+## Benefits of the System
 
-Testing Metrics
-
-True Positives (TP): Errors correctly identified and corrected.
-
-False Positives (FP): Unnecessary corrections.
-
-False Negatives (FN): Missed errors.
-
-True Negatives (TN): Correctly untouched parts of the text.
-
-Benefits of the System
-
-Enhanced Text Quality: Delivers polished Tamil text for professional and casual use.
-
-Efficient Processing: Combines fast algorithms with high accuracy.
-
-Comprehensive Error Coverage: Addresses both spelling and grammar issues in one tool.
+- **Enhanced Text Quality**: Delivers polished Tamil text for professional and casual use.
+- **Efficient Processing**: Combines fast algorithms with high accuracy.
+- **Comprehensive Error Coverage**: Addresses both spelling and grammar issues in one tool.
 
 The repository includes all necessary code, datasets, and evaluation scripts. Contributions to enhance the system’s capabilities are welcome!
-
