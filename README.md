@@ -1,4 +1,6 @@
 # Tamil - Spell and Grammar Correction System
+![done_1](https://github.com/user-attachments/assets/372fab83-518b-4185-b9e4-2bbb5513ac69)
+
 
 ## Project Overview
 
@@ -51,6 +53,8 @@ This project focuses on the development of an advanced Tamil language processing
    - Prioritizes suggestions with the highest similarity scores.
 
 ### Grammar Correction Workflow
+![image](https://github.com/user-attachments/assets/dd9e472f-a6ef-4890-83fb-c4a49ab1cd9c)
+
 
 1. **Rule-Based Approach**:
    - Applies predefined Tamil grammar rules to detect errors.
